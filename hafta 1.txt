@@ -1,0 +1,6 @@
+import random #MAHMUT HÜDAİ KIZILKAYA
+random =random.random()
+if random < 0.5:
+    print("yazı")
+else:
+    print("tura")
