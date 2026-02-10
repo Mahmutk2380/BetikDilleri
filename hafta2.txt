@@ -1,0 +1,17 @@
+import random as rd
+fb=0
+gs=0
+ber=0
+for i in range(40000):
+    r=rd.randint(1,6)
+    t=rd.randint(1,6)
+    if r%2==0 and t%2==0:
+        fb=fb+1
+    elif r%2==1 and t%2==1:
+        gs = gs + 1
+    else:
+        ber = ber + 1
+    all=fb+gs+ber
+    print("fb=",fb/all)
+    print("gs=", gs / all)
+    print("ber=", ber / all)
