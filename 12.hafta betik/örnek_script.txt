@@ -1,0 +1,12 @@
+function isimGoster()
+{
+    //isim degiskeni sadece bu fonksiyon içinde erişilebilir
+    var isim="Asya";
+    alert(isim);
+}
+isimGoster(); 
+
+if( 15 > 10) {
+    var sayi = 17;
+}
+alert(sayi); 
