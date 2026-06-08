@@ -1,5 +1,0 @@
-import yfinance as yf
-dat=yf.Ticker("THYAO.IS")
-dat.info
-df=dat.history(period='1mo')
-dat.option_chain(dat.options[0]).calls
